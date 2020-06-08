@@ -1,6 +1,6 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
-
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700;900&display=swap');
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
@@ -10,7 +10,8 @@
   --ion-color-primary-contrast-rgb: 255, 255, 255;
   --ion-color-primary-shade: #3171e0;
   --ion-color-primary-tint: #4c8dff;
-
+  --ion-font-family:'Spartan', sans-serif;
+  
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
   --ion-color-secondary-rgb: 61, 194, 255;
@@ -74,6 +75,13 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  --ion-color-main: #FFA2A2;
+  --ion-color-main-rgb: 255,162,162;
+  --ion-color-main-contrast: #000000;
+  --ion-color-main-contrast-rgb: 0,0,0;
+  --ion-color-main-shade: #e08f8f;
+  --ion-color-main-tint: #ffabab;
 }
 
 @media (prefers-color-scheme: dark) {
