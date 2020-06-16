@@ -19,6 +19,26 @@ const routes: Routes = [
     path: 'home',
     loadChildren: () => import('./page/home/home.module').then( m => m.HomePageModule)
   },
+  {
+    path: 'profile',
+    loadChildren: () => import('./page/profile/profile.module').then( m => m.ProfilePageModule)
+  },
+  {
+    path: 'categories',
+    loadChildren: () => import('./page/categories/categories.module').then( m => m.CategoriesPageModule)
+  },
+  {
+    path: 'item-detail',
+    loadChildren: () => import('./page/item-detail/item-detail.module').then( m => m.ItemDetailPageModule)
+  },
+  {
+    path: 'account-setting',
+    loadChildren: () => import('./page/account-setting/account-setting.module').then( m => m.AccountSettingPageModule)
+  },
+  {
+    path: 'list-message',
+    loadChildren: () => import('./page/list-message/list-message.module').then( m => m.ListMessagePageModule)
+  },
 ];
 
 @NgModule({
