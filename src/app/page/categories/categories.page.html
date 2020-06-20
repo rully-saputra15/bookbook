@@ -1,7 +1,10 @@
 <ion-header>
   <ion-toolbar color="main">
+    <ion-buttons slot="start">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-buttons>
     <ion-searchbar animated>
-      <ion-icon slot="start" class="icon-header" name="arrow-back-outline"></ion-icon>
+      <!--<ion-icon slot="start" class="icon-header" name="arrow-back-outline"></ion-icon>-->
     </ion-searchbar>
   </ion-toolbar>  
 </ion-header>
@@ -23,8 +26,8 @@
         <ion-card class="card-margin">
           <img src="../../../assets/image/buku.jpg"/>
             <ion-card-content>
-              <b>Buku Pelajaran</b>
-              Rully saputra
+              <p><b>Buku Pelajaran</b></p>
+              <small>Rully saputra</small>
             </ion-card-content>
         </ion-card>
       </ion-col>
@@ -32,8 +35,8 @@
         <ion-card class="card-margin">
           <img src="../../../assets/image/buku.jpg"/>
             <ion-card-content>
-              <b>Buku Pelajaran</b>
-              Rully saputra
+              <p><b>Buku Pelajaran</b></p>
+              <small>Rully saputra</small>
             </ion-card-content>
         </ion-card>
       </ion-col>
@@ -43,8 +46,8 @@
         <ion-card class="card-margin">
           <img src="../../../assets/image/buku.jpg"/>
             <ion-card-content>
-              <b>Buku Pelajaran</b>
-              Rully saputra
+              <p><b>Buku Pelajaran</b></p>
+              <small>Rully saputra</small>
             </ion-card-content>
         </ion-card>
       </ion-col>
@@ -52,8 +55,8 @@
         <ion-card class="card-margin">
           <img src="../../../assets/image/buku.jpg"/>
             <ion-card-content>
-              <b>Buku Pelajaran</b>
-              Rully saputra
+              <p><b>Buku Pelajaran</b></p>
+              <small>Rully saputra</small>
             </ion-card-content>
         </ion-card>
       </ion-col>
@@ -64,20 +67,20 @@
   <ion-toolbar>
       <ion-tabs>
         <ion-tab-bar slot="bottom">
-            <ion-tab-button>
-              <ion-icon name="home-outline"></ion-icon>
+            <ion-tab-button routerLink="/home" routerDirection="forward">
+              <ion-icon name="home-outline" ></ion-icon>
               <ion-label>Home</ion-label>
             </ion-tab-button>
-            <ion-tab-button>
+            <ion-tab-button routerLink="/list-message" routerDirection="forward">
               <ion-icon name="chatbox-ellipses-outline"></ion-icon>
               <ion-label>Chat</ion-label>
             </ion-tab-button>
-            <ion-tab-button>
+            <ion-tab-button routerLink="/notification" routerDirection="forward">
               <ion-icon name="notifications-outline"></ion-icon>
               <ion-label>Notifications</ion-label>
             </ion-tab-button>
-            <ion-tab-button>
-              <ion-icon name="person-outline"></ion-icon>              
+            <ion-tab-button routerLink="/profile" routerDirection="forward">
+              <ion-icon name="person-outline" r></ion-icon>              
               <ion-label>My Account</ion-label>
             </ion-tab-button>
         </ion-tab-bar>

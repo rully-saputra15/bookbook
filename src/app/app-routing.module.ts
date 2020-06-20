@@ -39,6 +39,14 @@ const routes: Routes = [
     path: 'list-message',
     loadChildren: () => import('./page/list-message/list-message.module').then( m => m.ListMessagePageModule)
   },
+  {
+    path: 'notification',
+    loadChildren: () => import('./page/notification/notification.module').then( m => m.NotificationPageModule)
+  },
+  {
+    path: 'add-book',
+    loadChildren: () => import('./page/add-book/add-book.module').then( m => m.AddBookPageModule)
+  },
 ];
 
 @NgModule({

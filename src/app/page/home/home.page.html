@@ -9,27 +9,41 @@
   <h2 class="title">Recommended For You!</h2>
   <ion-slides>
     <ion-slide>
-      <ion-card>
+      <ion-card routerLink="/item-detail" routerDirection="forward">
+        <img src="../../../assets/image/buku.jpg"/>
         <ion-card-header>
-          <ion-card-title>Buku1</ion-card-title>
+          <ion-card-title style="text-align:left;">Buku1</ion-card-title>
         </ion-card-header>
-        <ion-card-content>
+        <ion-card-content style="text-align:left;">
             Penjelasan dari buku
         </ion-card-content>
       </ion-card>
-      <ion-card>
+      <ion-card routerLink="/item-detail" routerDirection="forward">
+        <img src="../../../assets/image/buku.jpg"/>
         <ion-card-header>
-          <ion-card-title>Buku1</ion-card-title>
+          <ion-card-title style="text-align:left;">Buku1</ion-card-title>
         </ion-card-header>
-        <ion-card-content>
+        <ion-card-content style="text-align:left;">
             Penjelasan dari buku
         </ion-card-content>
       </ion-card>
-      <ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card routerLink="/item-detail" routerDirection="forward">
+        <img src="../../../assets/image/buku.jpg"/>
         <ion-card-header>
-          <ion-card-title>Buku1</ion-card-title>
+          <ion-card-title style="text-align:left;">Buku1</ion-card-title>
         </ion-card-header>
-        <ion-card-content>
+        <ion-card-content style="text-align:left;">
+            Penjelasan dari buku
+        </ion-card-content>
+      </ion-card>
+      <ion-card routerLink="/item-detail" routerDirection="forward">
+        <img src="../../../assets/image/buku.jpg"/>
+        <ion-card-header>
+          <ion-card-title style="text-align:left;">Buku1</ion-card-title>
+        </ion-card-header>
+        <ion-card-content style="text-align:left;">
             Penjelasan dari buku
         </ion-card-content>
       </ion-card>
@@ -38,48 +52,70 @@
   <h2 class="title">Im Selling</h2>
   <ion-slides>
     <ion-slide>
-      <ion-card>
+      <ion-card routerLink="/item-detail" routerDirection="forward">
+        <img src="../../../assets/image/buku.jpg"/>
         <ion-card-header>
-          <ion-card-title>Buku1</ion-card-title>
+          <ion-card-title style="text-align:left;">Buku1</ion-card-title>
         </ion-card-header>
-        <ion-card-content>
+        <ion-card-content style="text-align:left;">
             Penjelasan dari buku
         </ion-card-content>
       </ion-card>
-      <ion-card>
+      <ion-card routerLink="/item-detail" routerDirection="forward">
+        <img src="../../../assets/image/buku.jpg"/>
         <ion-card-header>
-          <ion-card-title>Buku1</ion-card-title>
+          <ion-card-title style="text-align:left;">Buku1</ion-card-title>
         </ion-card-header>
-        <ion-card-content>
+        <ion-card-content style="text-align:left;">
             Penjelasan dari buku
         </ion-card-content>
       </ion-card>
-      <ion-card>
+    </ion-slide>
+    <ion-slide>
+      <ion-card routerLink="/item-detail" routerDirection="forward">
+        <img src="../../../assets/image/buku.jpg"/>
         <ion-card-header>
-          <ion-card-title>Buku1</ion-card-title>
+          <ion-card-title style="text-align:left;">Buku1</ion-card-title>
         </ion-card-header>
-        <ion-card-content>
+        <ion-card-content style="text-align:left;">
             Penjelasan dari buku
         </ion-card-content>
       </ion-card>
-    </ion-slide>    
+      <ion-card routerLink="/item-detail" routerDirection="forward">
+        <img src="../../../assets/image/buku.jpg"/>
+        <ion-card-header>
+          <ion-card-title style="text-align:left;">Buku1</ion-card-title>
+        </ion-card-header>
+        <ion-card-content style="text-align:left;">
+            Penjelasan dari buku
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>  
   </ion-slides>
   <h2 class="title-center">Categories</h2>
   <ion-grid>
     <ion-row>
       <ion-col>
-        <img class="categories" src="../../../assets/icon/favicon.png"/>
+        <ion-card routerLink="/categories" routerDirection="forward">
+          <img class="categories" src="../../../assets/icon/favicon.png"/>
+        </ion-card>
       </ion-col>
       <ion-col>
-        <img class="categories" src="../../../assets/icon/favicon.png"/>
+        <ion-card routerLink="/categories" routerDirection="forward">
+          <img class="categories" src="../../../assets/icon/favicon.png"/>
+        </ion-card>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <img class="categories" src="../../../assets/icon/favicon.png"/>
+        <ion-card routerLink="/categories" routerDirection="forward">
+          <img class="categories" src="../../../assets/icon/favicon.png"/>
+        </ion-card>
       </ion-col>
       <ion-col>
-        <img class="categories" src="../../../assets/icon/favicon.png"/>
+        <ion-card routerLink="/categories" routerDirection="forward">
+          <img class="categories" src="../../../assets/icon/favicon.png"/>
+        </ion-card>
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -88,20 +124,20 @@
   <ion-toolbar>
       <ion-tabs>
         <ion-tab-bar slot="bottom">
-            <ion-tab-button>
-              <ion-icon name="home-outline"></ion-icon>
+            <ion-tab-button routerLink="/home" routerDirection="forward">
+              <ion-icon name="home-outline" ></ion-icon>
               <ion-label>Home</ion-label>
             </ion-tab-button>
-            <ion-tab-button>
+            <ion-tab-button routerLink="/list-message" routerDirection="forward">
               <ion-icon name="chatbox-ellipses-outline"></ion-icon>
               <ion-label>Chat</ion-label>
             </ion-tab-button>
-            <ion-tab-button>
+            <ion-tab-button routerLink="/notification" routerDirection="forward">
               <ion-icon name="notifications-outline"></ion-icon>
               <ion-label>Notifications</ion-label>
             </ion-tab-button>
-            <ion-tab-button>
-              <ion-icon name="person-outline"></ion-icon>              
+            <ion-tab-button routerLink="/profile" routerDirection="forward">
+              <ion-icon name="person-outline" r></ion-icon>              
               <ion-label>My Account</ion-label>
             </ion-tab-button>
         </ion-tab-bar>
