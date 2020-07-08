@@ -47,6 +47,10 @@ const routes: Routes = [
     path: 'add-book',
     loadChildren: () => import('./page/add-book/add-book.module').then( m => m.AddBookPageModule)
   },
+  {
+    path: 'search-filter',
+    loadChildren: () => import('./page/search-filter/search-filter.module').then( m => m.SearchFilterPageModule)
+  },
 ];
 
 @NgModule({

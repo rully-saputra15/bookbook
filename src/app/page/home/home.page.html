@@ -1,11 +1,11 @@
 <ion-header>
 <ion-toolbar color="main">
-  <ion-searchbar animated></ion-searchbar>
+  <ion-searchbar routerLink="/search-filter" routerDirection="forward" animated></ion-searchbar>
 </ion-toolbar>
 
 </ion-header>
 
-<ion-content fullscreen>
+<ion-content forceOverscroll="false">
   <h2 class="title">Recommended For You!</h2>
   <ion-slides>
     <ion-slide>
@@ -119,28 +119,6 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+
 </ion-content>
-<ion-footer>
-  <ion-toolbar>
-      <ion-tabs>
-        <ion-tab-bar slot="bottom">
-            <ion-tab-button routerLink="/home" routerDirection="forward">
-              <ion-icon name="home-outline" ></ion-icon>
-              <ion-label>Home</ion-label>
-            </ion-tab-button>
-            <ion-tab-button routerLink="/list-message" routerDirection="forward">
-              <ion-icon name="chatbox-ellipses-outline"></ion-icon>
-              <ion-label>Chat</ion-label>
-            </ion-tab-button>
-            <ion-tab-button routerLink="/notification" routerDirection="forward">
-              <ion-icon name="notifications-outline"></ion-icon>
-              <ion-label>Notifications</ion-label>
-            </ion-tab-button>
-            <ion-tab-button routerLink="/profile" routerDirection="forward">
-              <ion-icon name="person-outline" r></ion-icon>              
-              <ion-label>My Account</ion-label>
-            </ion-tab-button>
-        </ion-tab-bar>
-      </ion-tabs>
-  </ion-toolbar>
-</ion-footer>
+<app-tab></app-tab>

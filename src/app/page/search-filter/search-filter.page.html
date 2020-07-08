@@ -1,0 +1,101 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-buttons>
+    <ion-title>search-filter</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h2>Condition <ion-icon (click)="popOverCondition()"name="help-circle-outline"></ion-icon></h2>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+          <ion-chip outline>
+            <ion-icon color="main" name="star"></ion-icon>
+          </ion-chip>
+      </ion-col>
+      <ion-col>
+        <ion-chip outline>
+          <ion-icon color="main" name="star"></ion-icon>
+          <ion-icon color="main" name="star"></ion-icon>
+        </ion-chip>
+      </ion-col>
+      <ion-col>
+        <ion-chip outline>
+          <ion-icon color="main" name="star"></ion-icon>
+          <ion-icon color="main" name="star"></ion-icon>
+          <ion-icon color="main" name="star"></ion-icon>
+        </ion-chip>
+      </ion-col>
+      <ion-col>
+        <ion-chip outline>
+          <ion-icon color="main" name="star"></ion-icon>
+          <ion-icon color="main" name="star"></ion-icon>
+          <ion-icon color="main" name="star"></ion-icon>
+          <ion-icon color="main" name="star"></ion-icon>
+        </ion-chip>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <h2>Price</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-range dualKnobs="true" min="20000" max="500000" pin color="main">
+          <ion-icon slot="start"size="small" name="cash-outline"></ion-icon>
+          <ion-icon slot="end"size="small" name="cash-outline"></ion-icon>
+        </ion-range>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <h2>Location</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-select class="select" placeholder="Lokasi Penjual">
+          <ion-select-option value="Tangerang Selatan">Tangerang Selatan</ion-select-option>
+          <ion-select-option value="Alam Sutra">Alam Sutra</ion-select-option>
+          <ion-select-option value="Kemanggisan">Kemanggisan</ion-select-option>
+          <ion-select-option value="Gading Serpong">Gading Serpong</ion-select-option>
+          <ion-select-option value="Jakarta">Jakarta</ion-select-option>
+        </ion-select>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <h2>Category</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-select class="select" placeholder="Kategori Buku">
+          <ion-select-option value="Information System">Information System</ion-select-option>
+          <ion-select-option value="Management">Management</ion-select-option>
+          <ion-select-option value="Accounting">Accounting</ion-select-option>
+          <ion-select-option value="Art">Art</ion-select-option>
+          <ion-select-option value="Novel">Novel</ion-select-option>
+        </ion-select>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button color="main" expand="full" shape="round">Apply Filter</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
