@@ -51,6 +51,10 @@ const routes: Routes = [
     path: 'search-filter',
     loadChildren: () => import('./page/search-filter/search-filter.module').then( m => m.SearchFilterPageModule)
   },
+  {
+    path: 'chatroom',
+    loadChildren: () => import('./page/chatroom/chatroom.module').then( m => m.ChatroomPageModule)
+  },
 ];
 
 @NgModule({

@@ -1,11 +1,4 @@
-.ion-color-main {
-    --ion-color-base: var(--ion-color-main);
-    --ion-color-base-rgb: var(--ion-color-main-rgb);
-    --ion-color-contrast: var(--ion-color-main-contrast);
-    --ion-color-contrast-rgb: var(--ion-color-main-contrast-rgb);
-    --ion-color-shade: var(--ion-color-main-shade);
-    --ion-color-tint: var(--ion-color-main-tint);
-  }
+
 .title{
     font-weight:700;
     margin-left:20px;
@@ -18,5 +11,9 @@
     width:64px;
     height:64px;
     display:block;
+    margin:auto;
+}
+.img-item{
+    --size:50%;
     margin:auto;
 }
