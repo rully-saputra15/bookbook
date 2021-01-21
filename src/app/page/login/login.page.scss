@@ -1,3 +1,4 @@
+@import '../../../theme/font.scss';
 h1{
     text-align:center;
     font-weight:700;
@@ -9,11 +10,3 @@ h1{
 .title{
     margin-top:128px;
 }
-.ion-color-main {
-    --ion-color-base: var(--ion-color-main);
-    --ion-color-base-rgb: var(--ion-color-main-rgb);
-    --ion-color-contrast: var(--ion-color-main-contrast);
-    --ion-color-contrast-rgb: var(--ion-color-main-contrast-rgb);
-    --ion-color-shade: var(--ion-color-main-shade);
-    --ion-color-tint: var(--ion-color-main-tint);
-  }

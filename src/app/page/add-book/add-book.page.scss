@@ -1,0 +1,27 @@
+.upload{
+    background-color: grey;
+    width: calc(100% - 10px);
+    height:200px;
+}
+.col-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-title {
+     border-radius: 40px;
+     padding-left:0.04em;
+     text-indent:16px;
+     background-color: var(--ion-color-main);
+     color:white;
+}
+.input-border{
+    border-radius: 40px;
+    text-indent:16px;
+    border:0.05px solid black;
+}
+.input-dot{
+    border-radius:40px;
+    text-indent:16px;
+    border:1px dotted black;
+}

@@ -1,0 +1,15 @@
+
+.col-start {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.border-item{
+    border-color: black;
+    border-width:0.05em;
+    border-style:solid;
+    border-radius:10px;
+}
+.paragraf{
+    word-wrap: break-word;
+}

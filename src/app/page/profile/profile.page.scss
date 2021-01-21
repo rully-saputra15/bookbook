@@ -1,0 +1,30 @@
+.cover-profile{
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo-profile{
+    position:relative;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ion-color-main {
+    --ion-color-base: var(--ion-color-main);
+    --ion-color-base-rgb: var(--ion-color-main-rgb);
+    --ion-color-contrast: var(--ion-color-main-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-main-contrast-rgb);
+    --ion-color-shade: var(--ion-color-main-shade);
+    --ion-color-tint: var(--ion-color-main-tint);
+  }
+.col-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slides-margin{
+    margin-left:2px;
+    margin-right:2px;
+}

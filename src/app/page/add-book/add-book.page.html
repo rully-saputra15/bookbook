@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-buttons>
+    <ion-title>add-book</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col class="col-center">
+        <div class="upload">
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row style="margin-top:4px;">
+      <ion-col>
+        <ion-input class="input-title" color="main" placeholder="book title"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="4">
+        <ion-input class="input-border" placeholder="writer"></ion-input>
+      </ion-col>
+      <ion-col size="4">
+        <ion-input class="input-border" placeholder="ISBN"></ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-input class="input-dot" placeholder="kategori">
+          <ion-icon color="main"style="padding-left:10px;"name="pricetags"></ion-icon>
+        </ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-input class="input-border" placeholder="price">
+        </ion-input>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-icon color="main" name="star"></ion-icon>
+        <ion-icon color="main" name="star"></ion-icon>
+        <ion-icon color="main" name="star"></ion-icon>
+        <ion-icon color="main" name="star"></ion-icon>
+        <ion-icon color="main" name="star"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-item class="input-border"lines="none">
+          <ion-label position="floating">Description</ion-label>
+          <ion-textarea rows="10" cols="20"></ion-textarea>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col class="col-center">
+        <ion-button color="main">Add Book</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
